@@ -1,0 +1,51 @@
+/*!
+ * Nebula v2.1.1 (http://www.nebulasf.com)
+ * Copyright 2004-2021 Jose Ramirez Calamateo.
+ * Licensed under Nebula
+ */
+
+/*! MSTR-Layout.css v3.0.0 | Nebula License | nebulasf.com/normal */
+
+
+/* DESKTOP CSS */					
+
+
+/* LINKTREE BUTTON */
+	.button {
+		font-family: ff-meta-web-pro;
+		font-weight:bold;
+		letter-spacing:0.02em;
+		text-transform:uppercase;
+		border: none;
+		text-align: center;
+		text-decoration: none;
+		font-size: 16px;
+		transition-duration: 0.4s;
+		cursor: pointer;
+		padding: 15px 32px;
+		}
+
+	.button {
+		width: 100%;
+	}
+
+	.button1 {
+		background-color: rgb(0,0,0);
+		color: rgb(245,245,245);
+		border: 2px solid rgb(255,255,255);
+		}
+
+
+	.button1:link {
+		color:  rgb(232,104,50);
+		}
+	.button1:hover {
+		background-color: rgb(245,245,245);
+		color:  rgb(0,0,0);
+		border: 2px solid  rgb(0,0,0);
+		}
+	.button1:active {
+		color:  rgb(232,104,50);
+		}
+
+/*  */				

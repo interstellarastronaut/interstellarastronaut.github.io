@@ -1,0 +1,488 @@
+/*!
+ * Nebula v2.1.1 (http://www.nebulasf.com)
+ * Copyright 2004-2021 Jose Ramirez Calamateo.
+ * Licensed under Nebula
+ */
+
+/*! MSTR-Style.css v3.0.0 | Nebula License | nebulasf.com/normal */
+
+    
+/* 
+==================================================
+*/
+/* Master CSS */
+
+        *::selection { color:rgb(255,255,255); background:rgb(90,90,90);}
+        html {height:100%;background:rgb(255,255,255);}
+        
+        body { font-family:"mrs-eaves", serif; color:rgb(51,61,71);}
+        p {font-family:"mrs-eaves", serif; color:rgb(51,61,71);}
+        
+        
+        /* Unvisited link */
+        /* Visited link */
+        a:link, a:visited {
+            color:rgb(5,25,62);
+            text-decoration:none;
+        }
+        
+        /* Mouse over link */
+        /* Selected Link */
+        a:hover, a:active {
+            color:rgb(232,104,50);
+            text-decoration:none;
+        }
+        
+        /* Links on Dark Backgrounds */
+        a.light:link {color:rgb(242,244,255);}
+        a.light:visited {color:rgb(242,244,255);}
+        a.light:hover {color:rgb(32,38,46,1);}
+        
+        /* Links on light Backgrounds */
+        a.dark:link {color:rgb(74,66,66);}
+        a.dark:visited {color:rgb(74,66,66);;}
+        a.dark:hover {color:rgb(255,86,0);}
+        
+        /* Links on light Backgrounds */
+        a.accent-right:link {color:rgb(52,86,255);}
+        a.accent-right:visited {color:rgb(52,86,255);}
+        a.accent-right:hover {color:rgb(255,86,0);}
+        
+    
+/* 
+==================================================
+*/
+/* Background Gradient */
+
+
+        #gradient {
+            height: auto;
+            background: orange; /* For browsers that do not support gradients */    
+            background: -webkit-linear-gradient(left top, rgba(52,86,255,1) 10%, rgba(255,86,0,1) 80%); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(bottom right, rgba(52,86,255,1) 10%, rgba(255,86,0,1) 80%); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(bottom right, rgba(52,86,255,1) 10%, rgba(255,86,0,1) 80%); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(to bottom right, rgba(52,86,255,1) 10%, rgba(255,86,0,1) 80%); /* Standard syntax (must be last) */
+        }
+    
+/* 
+==================================================
+*/
+ /* Master CSS */
+        
+        .logo {
+            height:64px;
+            float: left;
+            vertical-align: middle;
+        }
+        
+        .ornament {width:70px;}
+        
+        .ctr {text-align:center;}
+        
+        .ctrcenter {
+            text-align: center;    
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .alignitem1 {  
+            text-align: center;    
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .alignitem2 {text-align:center;}
+        
+        
+        .material-icons.md { 
+            font-size: 20px;
+            vertical-align:bottom;
+        }
+
+    
+/* 
+==================================================
+*/
+/* Product Image Size */
+
+    
+/* 
+==================================================
+*/
+/* COLOR */
+/* COLOR FOR TYPE */
+
+
+
+        .accent {color:rgb(255,86,0);}
+        .accentLight {color:rgb(255,120,50);}
+        .accentDark {color:rgb(152,52,0);}
+        
+        .accentLeft {color:rgb(255,86,0);}
+        .accentRight {color:rgb(52,86,255);}
+        
+        .light {color:rgb(255,255,255);}
+        .lighter {color:rgb(255,255,255);}
+        .darklight {color:rgb(122,116,116);}
+        .dark {color:rgb(94,86,86);}
+        .darker {color:rgb(54,46,46);}
+        
+        /* COLOR */
+        
+        /* Orange: rgb(232,104,50)*/
+        /* White:  rgb(255,255,255)*/
+        /* Grey:   rgb(90,90,90)*/
+        /* Light Blue: rgb(75,177,228) */
+        
+        /* Licorice 100:   rgb(160,170,180) */
+        /* Licorice 200:   rgb(124,133,144) */
+        /* Licorice 300:   rgb(94,106,116) */
+        /* Licorice 400:   rgb(74,84,96) */
+        /* Licorice 500:   rgb(52,62,72) */
+        /* Licorice 600:   rgb(32,38,46) */
+        
+        /* Cappuccino 100:   rgb(122,116,116) */
+        /* Cappuccino 200:   rgb(112,104,105) */
+        /* Cappuccino 300:   rgb(94,86,86) */
+        /* Cappuccino 400:   rgb(74,66,66) */
+        /* Cappuccino 500:   rgb(54,46,46) */
+        /* Cappuccino 600:   rgb(36,32,32) */
+        
+        
+        /* Orange 100: rgb(255,186,154)*/
+        /* Orange 200: rgb(255,154,102)*/
+        /* Orange 300: rgb(255,120,50)*/
+        /* Orange 400: rgb(255,86,0)*/
+        /* Orange 500: rgb(204,68,0)*/
+        /* Orange 500: rgb(152,52,0)*/
+        
+        /* Blue 50:   rgb(242,244,255) */
+        /* Blue 100:   rgb(204,212,255) */
+        /* Blue 200:   rgb(178,190,255) */
+        /* Blue 300:   rgb(128,148,255) */
+        /* Blue 400:   rgb(102,126,255) */
+        /* Blue 500:   rgb(52,86,255) */
+        /* Blue 600:   rgb(46,76,230) */
+        /* Blue 700:   rgb(42,68,204) */
+        /* Blue 800:   rgb(32,52,152) */
+        /* Blue 900:   rgba(26,42,128,1) */
+        
+    
+/* 
+==================================================
+*/
+
+/* TYPEFACE */
+
+    .sans-serif {font-family: ff-meta-web-pro;}
+    .serif {font-family:"mrs-eaves";}
+
+/* 
+==================================================
+*/
+
+
+/* TYPOGRAPHY */
+
+    .designer {
+        font-size:14px;
+        line-height:120%;
+        letter-spacing:0.06em;
+        font-weight:bold;
+        text-transform:uppercase;
+        text-align:right;
+        vertical-align: middle;
+    }
+
+    .title {
+        font-size:14px;
+        line-height:140%;
+        letter-spacing:0.04em;
+        font-weight:bold;
+        text-transform:uppercase;
+        vertical-align: middle;
+    }
+
+    .title-1 {
+        font-size:16px;
+        line-height:120%;
+        letter-spacing:0.06em;
+        font-weight:bold;
+        text-transform:uppercase;
+        vertical-align: middle;
+    }
+
+    .title-2 {
+        font-size:28px;
+        line-height:120%;
+        letter-spacing:0.02em;
+    }
+
+    .subtitle {
+        font-size:14px;
+        line-height:140%;
+        letter-spacing:0.02em;
+        vertical-align: middle;
+    }    
+
+    .subtitle-1 {
+        font-size:28px;
+        line-height:120%;
+        letter-spacing:0.04em;
+        vertical-align: middle;
+    }
+
+
+    .headline {
+        font-size:14px;
+        line-height:120%;
+        letter-spacing:0.06em;
+        font-weight:bold;
+        text-transform:uppercase;
+        vertical-align: middle;
+    }
+
+    .body {
+        font-size: 16px;
+        line-height:140%;
+        font-style: normal;
+    }
+
+    .body-1 {
+        font-size:28px;
+        line-height:110%;
+        letter-spacing:0.02em;
+    }
+
+    .body-2 {
+        font-size:46px;
+        line-height:120%;
+        font-style: normal;
+    }
+
+    .caption {
+        font-size:12px;
+        line-height:120%;
+        font-style: normal;
+    }
+
+    .social-media {
+        font-size:12px;
+        line-height:120%;
+        font-weight:bold;
+        text-transform:uppercase;
+        font-style: normal;
+    }
+    .copyright {
+        font-size:12px;
+        line-height:120%;
+        font-style: normal;
+    }
+
+
+/* 
+==================================================
+*/
+
+/* PROJECT PAGES STYLES */
+/* COLOR FOR PROJECT PAGE & TYPE */
+
+    hr.dark {border-top: 2px solid rgba(122,116,116,50%);}
+    hr.accent {border-top: 1.5px solid rgb(255,154,102);}
+    hr.colour-lg {
+        background: linear-gradient(45deg, rgba(255,86,0,1) 10%, rgba(52,86,255,1) 80%);
+        height: 4px;
+    }
+
+    hr.colour-sm {
+        background: linear-gradient(45deg, rgba(255,86,0,1) 10%, rgba(52,86,255,1) 80%);
+        height: 2px;
+    }
+
+
+/* 
+==================================================
+*/
+/* HOME CARD */
+
+    .projCard-title {
+        font-size:46px;
+        line-height:90%;
+        letter-spacing:0.01em;
+        vertical-align: middle;
+    }
+
+    .projCard-subtitle {
+        font-size:14px;
+        line-height:90%;
+        letter-spacing:0.04em;
+        font-weight:bold;
+        text-transform:uppercase;
+        vertical-align: middle;
+    }
+
+    /* PROJECT PAGE */
+
+    .ProjPage-title {
+        font-size:64px;
+        line-height:90%;
+        letter-spacing: 0.01em;
+        vertical-align: middle;
+    }
+
+    .ProjPage-subtitle {
+        font-size:48px;
+        line-height:80%;
+        letter-spacing: 0.01em;
+        vertical-align: middle;
+    }
+
+    .ProjPage-Type{
+        font-size:14px;
+        line-height:180%;
+        letter-spacing:0.01em;
+        font-weight:bold;
+        text-transform:uppercase;
+        vertical-align: middle;
+    }
+    
+    
+    .ProjPage-Role {
+        font-size:14px;
+        line-height:90%;
+        letter-spacing:0.01em;
+        font-weight:bold;
+        vertical-align: middle;
+    }
+
+    .ProjPage-body {
+        font-size: 24px;
+        line-height:140%;
+        font-style: normal;
+    }
+
+    .ProjPage-Caption {
+        font-size:14px;
+        line-height:120%;
+        letter-spacing:0.02em;
+        font-style: normal;
+        font-weight:bold;
+    }
+    
+    
+/* 
+==================================================
+*/
+
+/* MOBILE CSS */
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+
+
+@media (min-width: 375px) {
+
+     
+    .ctr {text-align:left;}
+    .ctrcenter {
+        text-align: center;    
+        justify-content: center;
+        align-items: center;
+    }
+
+    .alignitem1 {float:right;}
+    .alignitem2 {float:left;}
+
+    .title {
+        font-size:14px;
+        line-height:180%;
+        letter-spacing:0.04em;
+        font-weight:bold;
+        text-transform:uppercase;
+    }
+
+    .title-2 {
+        font-size:46px;
+        line-height:90%;
+        letter-spacing:0.01em;
+        vertical-align: middle;
+    }    
+
+    .body-1 {
+        font-size:26px;
+        line-height:110%;
+        letter-spacing:0.02em;
+        text-align: left;
+    }
+        
+    .body-2 {
+        font-size:26px;
+        line-height:120%;
+        font-style: normal;
+        text-align: left;
+    }
+
+    .subtitle-1 {
+        font-size:26px;
+        line-height:120%;
+        letter-spacing:0.04em;
+        vertical-align: middle;
+
+    }
+ 
+    /* PROJECT PAGES STYLES */
+
+    /* HOME CARD */
+
+    .projCard-title {
+        font-size:46px;
+        line-height:90%;
+        letter-spacing:0.01em;
+        vertical-align: middle;
+    }    
+
+    .project-title {
+        font-size:28px;
+        line-height:90%;
+        letter-spacing:0.01em;
+        vertical-align: middle;
+    }
+    
+
+    .project-subtitle {
+        font-size:14px;
+        line-height:90%;
+        letter-spacing:0.04em;
+        font-weight:bold;
+        text-transform:uppercase;
+        vertical-align: middle;
+    }
+
+    .project-space {
+        margin-top:1.0em;
+        margin-bottom:1.0em;
+    }
+    
+    /* PROJECT PAGE */
+
+    .ProjPage-title {
+        font-size:48px;
+        line-height:90%;
+        letter-spacing: 0.01em;
+        vertical-align: middle;
+    }
+
+    .ProjPage-subtitle {
+        font-size:48px;
+        line-height:80%;
+        letter-spacing: 0.01em;
+        vertical-align: middle;
+    }
+    
+
+}
+
+
+/* 
+==================================================
+*/
+
+
